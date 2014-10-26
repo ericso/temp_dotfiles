@@ -1,0 +1,12 @@
+# pip should only run if there is a virtualenv currently activated
+export PIP_REQUIRE_VIRTUALENV=true
+
+# Cache pip-installed packages to avoid re-downloading
+export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
+
+# Aliases
+alias ll='ls -la'
+
+# Virtualenvwrapper vars
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Dropbox/dev
